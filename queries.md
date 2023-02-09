@@ -53,7 +53,7 @@
 ### 6. All the companies that don't include the `partners` field.
 
 <!-- Your Code Goes Here -->
-- **QUERY**: `{name: {$not: {$regex: /partners/}}}`
+- **QUERY**: `{partners: {$exists: false}}`
 - **PROJECT**: `` 
 - **SORT**: ``
 - **LIMIT**: ``
